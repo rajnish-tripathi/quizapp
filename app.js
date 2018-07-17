@@ -1,4 +1,5 @@
 function populate(){
+	setTimeout(showScores, 30000);
 	if(quiz.isEnded()){
 	showScores();
 	}
